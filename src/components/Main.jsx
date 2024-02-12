@@ -8,7 +8,7 @@ const Main = () =>{
             <img className='w-full h-screen object-cover object-left' src="src/assets/anas-alshanti-feXpdV001o4-unsplash.jpg" alt="" />
             <div className='w-full h-screen absolute top-0 left-0 bg-slate-600/25'>
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-                    <h1 className='sm:text-5xl text-4xl font-bold text-white'>Hi, my name is Betim Hodza</h1>
+                    <h1 className='sm:text-5xl text-4xl font-bold text-white'>Hi, I'm Betim Hodza</h1>
                     <h2 className='flex snLtext-4xl text-3xl pt-4 text-white'>I'm a 
                         <TypeAnimation
                         sequence={[
