@@ -8,7 +8,7 @@ import Project4 from '../assets/react.svg' //(doesnt exist yet but will whenever
 const Projects = () => {
     return(
         <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-            <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Projects</h1>
+            <h1 className='text-4xl font-bold text-center text-[#53306b]'>Projects</h1>
             <p className='text-center py-8'>Filler Filler Filler Filler Blah BlahBlahBlah
             BlahBlahBlahBlah BlahBlahBlah Blah Blah Blah
             </p>

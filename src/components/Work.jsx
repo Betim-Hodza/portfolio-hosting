@@ -27,10 +27,11 @@ const data = [
         details: 'blah blah blah blah blah blah blah blah blah '
     },
 ]
+
 const Work = () => {
     return (
         <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-            <h1 className='py-8 text-4xl font-bold text-center text-[#001b5e]'>Experience</h1>
+            <h1 className='py-8 text-4xl font-bold text-center text-[#53306b]'>Experience</h1>
             {data.map((item, idx)=>(
                 <Workitem 
                 key={idx} 
