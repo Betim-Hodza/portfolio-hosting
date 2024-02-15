@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Portfolio Website
 
 A React JS and Tailwind CSS Portfolio website, showcasing my skills, experience, and my projects!
 
