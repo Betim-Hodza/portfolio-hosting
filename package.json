@@ -1,7 +1,7 @@
 {
   "homepage": "https://betim-hodza.github.io/portfolio-hosting/",
   "name": "portfolio-hosting",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "type": "module",
   "scripts": {

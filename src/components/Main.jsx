@@ -5,7 +5,7 @@ import {FaGithubAlt, FaInstagram, FaLinkedin} from 'react-icons/fa'
 const Main = () =>{
     return(
         <div id='main'>
-            <img className='w-full h-screen object-cover object-left' src="src/assets/anas-alshanti-feXpdV001o4-unsplash.jpg" alt="" />
+            <img className='w-full h-screen object-cover object-left' src="https://images.unsplash.com/photo-1480506132288-68f7705954bd?q=80&w=1840&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="/" />
             <div className='w-full h-screen absolute top-0 left-0 bg-slate-600/25'>
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
                     <h1 className='sm:text-5xl text-4xl font-bold text-white'>Hi, I'm Betim Hodza</h1>
