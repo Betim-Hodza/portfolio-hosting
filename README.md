@@ -22,8 +22,3 @@ npm run dev
 ## Authors
 
 Betim Hodza
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* 
