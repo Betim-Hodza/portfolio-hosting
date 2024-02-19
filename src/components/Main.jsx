@@ -1,6 +1,7 @@
 import React from 'react'
 import {TypeAnimation} from 'react-type-animation'
 import {FaGithubAlt, FaInstagram, FaLinkedin} from 'react-icons/fa'
+import { SiCyberdefenders } from "react-icons/si"
 
 const Main = () =>{
     return(
@@ -14,8 +15,8 @@ const Main = () =>{
                         sequence={[
                             // Same substring at the start will only be typed out once, initially
                             'CS Student',
-                            2000, // wait 1s before replacing "Mice" with "Hamsters"
-                            'CyberSecurity Enthusiest',
+                            2000, // wait 2s before replacing
+                            'CyberSecurity Enthusiast',
                             2000,
                             'Developer',
                             2000
@@ -27,10 +28,15 @@ const Main = () =>{
                         />
                     </h2>
                     <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                        
-                        <FaGithubAlt className='cursor-pointer ' size={20} color='white'/>
-                        <FaLinkedin className='cursor-pointer' size={20} color='white'/>
-                        <FaInstagram className='cursor-pointer' size={20} color='white'/>
+                        <a href="https://github.com/Betim-Hodza">
+                            <FaGithubAlt className='cursor-pointer ' size={20} color='white'/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/betim-hodza-17bb46253/">
+                            <FaLinkedin className='cursor-pointer' size={20} color='white'/>
+                        </a>
+                        <a href="https://cyberskyline.com/report/FHKXJJX4J74R">
+                            <SiCyberdefenders className='cursor-pointer' size={20} color='white'/>
+                        </a>
                     </div>
                 </div>
             </div>
