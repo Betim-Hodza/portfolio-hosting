@@ -1,8 +1,8 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import Project1 from '../assets/ConnectForJava.png' //(doesnt exist yet but will whenever i have images for now svg filler)
+import Project1 from '../assets/Connect For Java.gif' //(doesnt exist yet but will whenever i have images for now svg filler)
 import Project2 from '../assets/Portfolio.png' //(doesnt exist yet but will whenever i have images for now svg filler)
-import Project3 from '../assets/MTMS.png' //(doesnt exist yet but will whenever i have images for now svg filler)
+import Project3 from '../assets/Movie Theater Management System.gif' //(doesnt exist yet but will whenever i have images for now svg filler)
 
 const Projects = () => {
     return(

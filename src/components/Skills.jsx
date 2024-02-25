@@ -4,17 +4,17 @@ import { FaCode, FaTools, FaLaptopCode } from 'react-icons/fa';
 const data = {
   languages: {
     title: 'Languages:',
-    skills: ['C/C++', 'Java', 'Python', 'React'],
+    skills: ['C/C++', 'Java', 'Python', 'React', 'Tailwind CSS', 'JavaScript'],
     icon: <FaCode />,
   },
   tools: {
     title: 'Tools:',
-    skills: ['gcc/g++', 'gdb', 'git/github', 'bash'],
+    skills: ['Gcc/G++', 'linux', 'gdb', 'git/github', 'bash', 'github pages', 'make', 'valgrind', 'Wireshark'],
     icon: <FaTools />,
   },
-  os: {
-    title: 'Operating Systems:',
-    skills: ['Windows', 'Linux'],
+  csec: {
+    title: 'Cyber Security:',
+    skills: [ 'OSINT', 'Network Traffic Analysis', 'Cryptography', 'Log Analysis', 'Password Cracking'],
     icon: <FaLaptopCode />,
   },
 };
