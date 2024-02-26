@@ -5,6 +5,7 @@ import Work from './components/Work'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Skills from './components/Skills'
+import Aboutme from './components/Aboutme'
 
 function App() 
 {
@@ -12,6 +13,7 @@ function App()
     <div>
       <Sidenav />
       <Main />
+      <Aboutme />
       <Skills />
       <Work />
       <Projects />
