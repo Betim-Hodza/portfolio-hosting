@@ -10,7 +10,11 @@ const Workitem = ({year, title, duration, details}) => {
                     <span className='text-lg font-semibold text-[#59227e]'>{title}</span>
                     <span className='my-1 text-sm font-normal leading-none text-stone-400'>{duration}</span>
                 </p>
-                <p className='my-2 text-base font-normal text-stone500'>{details}</p>
+                <p className='details ul mb-2 text-base font-normal text-stone500'>
+                    {details.map((detail, index) => (
+                        <li key={index}>{detail}</li>
+                    ))}
+                </p>
             </li>
         </ol>
     )
