@@ -1,6 +1,8 @@
 # Portfolio Website
 
 A React JS and Tailwind CSS Portfolio website, showcasing my skills, experience, and my projects!
+Theres now a live link!
+[https://betim-hodza.github.io/portfolio-hosting/]
 
 ## Description
 
@@ -16,7 +18,7 @@ This webapp requires a lot of different tools to get running,
 my advice if you want to run this open a codespaces in github
 and run the program using
 
-npm run dev
+npm run dev / npm run build / npm preview
 ```
 
 ## Authors
